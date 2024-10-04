@@ -3,7 +3,6 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-import { GrDocumentDownload } from "react-icons/gr";
 
 const Navbar = () => {
   return (
@@ -16,7 +15,6 @@ const Navbar = () => {
         <a href="https://github.com/KrishHubCode" target={"blank"}><FaGithub /></a>
         <a href="https://www.instagram.com/krish_byte/" target={"blank"}><FaInstagram /></a>
         <a href="https://x.com/Krish_byte" target={"blank"}><FaSquareXTwitter /></a>
-        <a href="https://x.com/Krish_byte" target={"blank"}><GrDocumentDownload /></a>
     </div>
   </nav>
   );
